@@ -27,7 +27,7 @@ export default function Home() {
         setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % playlist.length);
     };
 
-    const whatsappNumber = '5516999999999'; // Substitua pelo número real
+    const whatsappNumber = '5516999783336'; // Substitua pelo número real
     const whatsappBaseUrl = `https://wa.me/${whatsappNumber}?text=`;
 
     const handleQuoteClick = (service = '') => {
