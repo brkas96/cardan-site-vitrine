@@ -33,7 +33,7 @@ function Home() {
     const handleVideoEnded = ()=>{
         setCurrentVideoIndex((prevIndex)=>(prevIndex + 1) % playlist.length);
     };
-    const whatsappNumber = '5516999999999'; // Substitua pelo número real
+    const whatsappNumber = '5516999783336'; // Substitua pelo número real
     const whatsappBaseUrl = `https://wa.me/${whatsappNumber}?text=`;
     const handleQuoteClick = (service = '')=>{
         const message = service ? `Olá! Gostaria de solicitar um orçamento para restauração de eixo cardan de ${service}.` : 'Olá! Gostaria de fazer um orçamento para restauração de eixo cardan.';
@@ -192,7 +192,7 @@ function Home() {
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        className: "my-auto py-10 sm:py-16 md:py-20",
+                        className: "my-auto py-14 sm:py-20 md:py-24",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                             initial: {
                                 opacity: 0,
@@ -312,7 +312,7 @@ function Home() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                         id: "servicos",
-                        className: "grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6 my-8",
+                        className: "grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 my-12 sm:my-16",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                 initial: {
@@ -327,10 +327,10 @@ function Home() {
                                     duration: 0.6,
                                     delay: 0.2
                                 },
-                                className: "rounded-2xl border border-white/10 bg-zinc-900/85 p-6 sm:p-8 backdrop-blur-xl transition-all hover:border-red-500/50 hover:bg-zinc-900/95 shadow-2xl group",
+                                className: "rounded-2xl border border-white/10 bg-zinc-900/85 p-8 sm:p-10 backdrop-blur-xl transition-all hover:border-red-500/50 hover:bg-zinc-900/95 shadow-2xl group",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "rounded-xl bg-red-600/10 border border-red-500/20 w-14 h-14 flex items-center justify-center mb-5 group-hover:bg-red-600 transition-colors",
+                                        className: "mx-auto rounded-xl bg-red-600/10 border border-red-500/20 w-14 h-14 flex items-center justify-center mb-6 group-hover:bg-red-600 transition-colors",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$truck$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Truck$3e$__["Truck"], {
                                             className: "h-7 w-7 text-red-400 group-hover:text-white"
                                         }, void 0, false, {
@@ -387,10 +387,10 @@ function Home() {
                                     duration: 0.6,
                                     delay: 0.4
                                 },
-                                className: "rounded-2xl border border-white/10 bg-zinc-900/85 p-6 sm:p-8 backdrop-blur-xl transition-all hover:border-red-500/50 hover:bg-zinc-900/95 shadow-2xl group",
+                                className: "rounded-2xl border border-white/10 bg-zinc-900/85 p-8 sm:p-10 backdrop-blur-xl transition-all hover:border-red-500/50 hover:bg-zinc-900/95 shadow-2xl group",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "rounded-xl bg-red-600/10 border border-red-500/20 w-14 h-14 flex items-center justify-center mb-5 group-hover:bg-red-600 transition-colors",
+                                        className: "mx-auto rounded-xl bg-red-600/10 border border-red-500/20 w-14 h-14 flex items-center justify-center mb-6 group-hover:bg-red-600 transition-colors",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wrench$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Wrench$3e$__["Wrench"], {
                                             className: "h-7 w-7 text-red-400 group-hover:text-white"
                                         }, void 0, false, {
@@ -447,10 +447,10 @@ function Home() {
                                     duration: 0.6,
                                     delay: 0.6
                                 },
-                                className: "rounded-2xl border border-white/10 bg-zinc-900/85 p-6 sm:p-8 backdrop-blur-xl transition-all hover:border-red-500/50 hover:bg-zinc-900/95 shadow-2xl group",
+                                className: "rounded-2xl border border-white/10 bg-zinc-900/85 p-8 sm:p-10 backdrop-blur-xl transition-all hover:border-red-500/50 hover:bg-zinc-900/95 shadow-2xl group",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "rounded-xl bg-red-600/10 border border-red-500/20 w-14 h-14 flex items-center justify-center mb-5 group-hover:bg-red-600 transition-colors",
+                                        className: "mx-auto rounded-xl bg-red-600/10 border border-red-500/20 w-14 h-14 flex items-center justify-center mb-6 group-hover:bg-red-600 transition-colors",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2d$check$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShieldCheck$3e$__["ShieldCheck"], {
                                             className: "h-7 w-7 text-red-400 group-hover:text-white"
                                         }, void 0, false, {
@@ -501,7 +501,7 @@ function Home() {
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-                        className: "mt-8 border border-white/10 py-6 px-6 sm:px-8 backdrop-blur-xl flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-zinc-300 rounded-2xl bg-zinc-900/60 shadow-2xl",
+                        className: "mt-10 border border-white/10 py-8 px-6 sm:px-8 backdrop-blur-xl flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-zinc-300 rounded-2xl bg-zinc-900/60 shadow-2xl",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex flex-wrap justify-center md:justify-start gap-6 font-medium",
