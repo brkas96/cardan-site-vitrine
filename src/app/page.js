@@ -114,7 +114,7 @@ export default function Home() {
                 </header>
 
                 {/* HERO SECTION */}
-                <section className="my-auto py-14 sm:py-20 md:py-24">
+                <section className="my-auto py-10 sm:py-16 md:py-20">
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -156,15 +156,15 @@ export default function Home() {
                 </section>
 
                 {/* CARDS DE SERVIÇOS */}
-                <section id="servicos" className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 my-12 sm:my-16">
+                <section id="servicos" className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6 my-8">
 
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.2 }}
-                        className="rounded-2xl border border-white/10 bg-zinc-900/85 p-8 sm:p-10 backdrop-blur-xl transition-all hover:border-red-500/50 hover:bg-zinc-900/95 shadow-2xl group"
+                        className="rounded-2xl border border-white/10 bg-zinc-900/85 p-6 sm:p-8 backdrop-blur-xl transition-all hover:border-red-500/50 hover:bg-zinc-900/95 shadow-2xl group"
                     >
-                        <div className="mx-auto rounded-xl bg-red-600/10 border border-red-500/20 w-14 h-14 flex items-center justify-center mb-6 group-hover:bg-red-600 transition-colors">
+                        <div className="rounded-xl bg-red-600/10 border border-red-500/20 w-14 h-14 flex items-center justify-center mb-5 group-hover:bg-red-600 transition-colors">
                             <Truck className="h-7 w-7 text-red-400 group-hover:text-white" />
                         </div>
                         <h3 className="text-xl font-extrabold text-white mb-2">Linha Pesada & Frota</h3>
@@ -183,9 +183,9 @@ export default function Home() {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.4 }}
-                        className="rounded-2xl border border-white/10 bg-zinc-900/85 p-8 sm:p-10 backdrop-blur-xl transition-all hover:border-red-500/50 hover:bg-zinc-900/95 shadow-2xl group"
+                        className="rounded-2xl border border-white/10 bg-zinc-900/85 p-6 sm:p-8 backdrop-blur-xl transition-all hover:border-red-500/50 hover:bg-zinc-900/95 shadow-2xl group"
                     >
-                        <div className="mx-auto rounded-xl bg-red-600/10 border border-red-500/20 w-14 h-14 flex items-center justify-center mb-6 group-hover:bg-red-600 transition-colors">
+                        <div className="rounded-xl bg-red-600/10 border border-red-500/20 w-14 h-14 flex items-center justify-center mb-5 group-hover:bg-red-600 transition-colors">
                             <Wrench className="h-7 w-7 text-red-400 group-hover:text-white" />
                         </div>
                         <h3 className="text-xl font-extrabold text-white mb-2">Linha Leve & Utilitários</h3>
@@ -204,9 +204,9 @@ export default function Home() {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.6 }}
-                        className="rounded-2xl border border-white/10 bg-zinc-900/85 p-8 sm:p-10 backdrop-blur-xl transition-all hover:border-red-500/50 hover:bg-zinc-900/95 shadow-2xl group"
+                        className="rounded-2xl border border-white/10 bg-zinc-900/85 p-6 sm:p-8 backdrop-blur-xl transition-all hover:border-red-500/50 hover:bg-zinc-900/95 shadow-2xl group"
                     >
-                        <div className="mx-auto rounded-xl bg-red-600/10 border border-red-500/20 w-14 h-14 flex items-center justify-center mb-6 group-hover:bg-red-600 transition-colors">
+                        <div className="rounded-xl bg-red-600/10 border border-red-500/20 w-14 h-14 flex items-center justify-center mb-5 group-hover:bg-red-600 transition-colors">
                             <ShieldCheck className="h-7 w-7 text-red-400 group-hover:text-white" />
                         </div>
                         <h3 className="text-xl font-extrabold text-white mb-2">Troca de Componentes</h3>
@@ -224,7 +224,7 @@ export default function Home() {
                 </section>
 
                 {/* FOOTER */}
-                <footer className="mt-10 border border-white/10 py-8 px-6 sm:px-8 backdrop-blur-xl flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-zinc-300 rounded-2xl bg-zinc-900/60 shadow-2xl">
+                <footer className="mt-8 border border-white/10 py-6 px-6 sm:px-8 backdrop-blur-xl flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-zinc-300 rounded-2xl bg-zinc-900/60 shadow-2xl">
                     <div className="flex flex-wrap justify-center md:justify-start gap-6 font-medium">
                         <span className="flex items-center gap-2">
                             <MapPin className="h-4 w-4 text-red-500 shrink-0" />
