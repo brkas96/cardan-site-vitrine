@@ -6,3 +6,8 @@
 {"timestamp":"00:03:18.498","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
 {"timestamp":"00:08:18.915","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
 {"timestamp":"00:11:00.843","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:12:45.523","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:46:50.793","source":"Server","level":"ERROR","message":"Error: EPIPE: broken pipe, write"}
+{"timestamp":"00:46:50.795","source":"Server","level":"ERROR","message":"⨯ \"uncaughtException:\" Error: EPIPE: broken pipe, write"}
+{"timestamp":"00:46:50.796","source":"Server","level":"ERROR","message":"⨯ \"uncaughtException: \" Error: EPIPE: broken pipe, write"}
+{"timestamp":"00:46:52.121","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
