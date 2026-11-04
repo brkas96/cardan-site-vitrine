@@ -30,15 +30,33 @@ export default function Home() {
     const whatsappNumber = '5516999783336'; // Substitua pelo número real
     const whatsappBaseUrl = `https://wa.me/${whatsappNumber}?text=`;
 
+
     const handleQuoteClick = (service = '') => {
         const message = service
             ? `Olá! Gostaria de solicitar um orçamento para restauração de eixo cardan de ${service}.`
             : 'Olá! Gostaria de fazer um orçamento para restauração de eixo cardan.';
-        window.open(`${whatsappBaseUrl}${encodeURIComponent(message)}`, '_blank');
+
+        // Registra o evento no Google Analytics
+        if (typeof window.gtag === 'function') {
+            window.gtag('event', 'whatsapp_click', {
+                event_category: 'engagement',
+                event_label: service || 'Orçamento geral',
+                service_name: service || 'Orçamento geral'
+            });
+        }
+
+        // Abre o WhatsApp
+        window.open(
+            `${whatsappBaseUrl}${encodeURIComponent(message)}`,
+            '_blank'
+        );
     };
 
+
     return (
+
         <div className="relative isolate min-h-screen w-full overflow-x-hidden text-white font-sans selection:bg-red-600 selection:text-white">
+
 
             {/* 
               ========================================
